@@ -14,7 +14,7 @@ jobs:
         uses: render-actions/deploy@v1
         with:
           cloud: render
-          service-id: "your-render-service-id"  # Replace with your Render service ID
+          service-id: "srv-d1flbi7fte5s73flipm0/deploys/dep-d1flbiffte5s73flipq0"  # Replace with your Render service ID
           api-key: ${{ secrets.RENDER_API_KEY }}
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}  # Passes secret to Render
